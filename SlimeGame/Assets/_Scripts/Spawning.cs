@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Spawning : MonoBehaviour
 {
+    /// <summary>
+    /// Use proc gen script to spawn stuff now
+    /// </summary>
     public Objects obj;
     public int desiredSpawnAmount;
     public Transform lowerLeftBounds;
